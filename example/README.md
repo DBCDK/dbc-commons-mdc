@@ -4,9 +4,9 @@ An example that uses `dbc-commons-mdc`
 
 ## Building
 
-Remember to build library first (and install it) by running: `(cd .. && mvn install)`
+Remember to build the library first (and install it) by running: `(cd .. && mvn install)`
 
-The you can build the JakartaEE application by running: `mvn package` - this also downloads a `payara-micro.jar`
+Then you can build the JakartaEE application by running: `mvn package` - this also downloads a `payara-micro.jar`
 
 ## Running
 

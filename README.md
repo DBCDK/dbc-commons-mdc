@@ -31,3 +31,4 @@ public class ... {
 
 This is built upon the `slf4j` log framework.
 
+You get `.toString()` values in the MDC, arrays are handled by `Arrays.toString(...)`, for all objects and primitive types

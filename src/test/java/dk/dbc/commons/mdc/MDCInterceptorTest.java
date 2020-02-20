@@ -152,6 +152,5 @@ public class MDCInterceptorTest {
         MDC.clear();
         func.accept(existing);
         assertThat(MDC.get("abc"), is("[null, [1, 2, 3], null]"));
-
     }
 }
