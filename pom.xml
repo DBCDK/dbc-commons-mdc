@@ -12,19 +12,19 @@
     <parent>
         <groupId>dk.dbc</groupId>
         <artifactId>microservice-pom</artifactId>
-        <version>latest-SNAPSHOT</version>
+        <version>java11-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
     <groupId>dk.dbc</groupId>
     <artifactId>dbc-commons-mdc</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.0-SNAPSHOT</version>
     <packaging>ejb</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
             <scope>provided</scope>
         </dependency>
 
