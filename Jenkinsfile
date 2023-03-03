@@ -47,7 +47,7 @@ pipeline {
         stage("analysis") {
             steps {
                 sh """
-                    mvn -B -Dmaven.repo.local=\$WORKSPACE/.repo pmd:pmd pmd:cpd findbugs:findbugs
+                    mvn -B -Dmaven.repo.local=\$WORKSPACE/.repo pmd:pmd pmd:cpd spotbugs:spotbugs javadoc:aggregate -Dspotbugs.excludeFilterFile=src/test/spotbugs/spotbugs-exclude.xml
                 """
 
                 script {
