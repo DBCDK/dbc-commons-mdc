@@ -36,5 +36,6 @@ import java.lang.annotation.Target;
 @Documented
 @Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
+@Deprecated(forRemoval = true, since = "2024 - use artifact: dk.dbc:dbc-commons-payara-helpers")
 public @interface GenerateTrackingId {
 }
